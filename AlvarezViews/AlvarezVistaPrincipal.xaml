@@ -2,22 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AlvarezExamenProgreso3.AlvarezViews.AlvarezVistaPrincipal"
-             Title="Bienvenido a un mundo de gatos, Mr.Alvarez">
+             Title="Bienvenido a un mundo de gatos, Mr. Alvarez">
 
-    <Grid BackgroundColor="#F2F2F2">
+    <Grid BackgroundColor="#3498DB">
         <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
 
-        <Image x:Name="gatosImage" Grid.Row="1" Grid.Column="0" Grid.RowSpan="4" Aspect="AspectFit"/>
+        <Image x:Name="gatosImage" Aspect="AspectFill" Source="cat_image.jpg"/>
 
+        <!-- Botones debajo de la imagen -->
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button Text="Guardar" Clicked="GuardarButton_Clicked"/>
+            <Button Text="Quiero otro gato" Clicked="OtroGatoButton_Clicked"/>
+        </StackLayout>
     </Grid>
 
 </ContentPage>

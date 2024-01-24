@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-24T12:36:21.915</Modified>
+      <Modified>2024-01-24T13:27:11.348</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-24T12:33:49.801</Modified>
+      <Modified>2024-01-24T13:27:10.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AlvarezExamenProgreso3.runtimeconfig.json">
       <PackagePath>AlvarezExamenProgreso3.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-24T12:30:31.379</Modified>
+      <Modified>2024-01-24T13:27:10.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AlvarezExamenProgreso3.dll">
       <PackagePath>AlvarezExamenProgreso3.dll</PackagePath>
-      <Modified>2024-01-24T12:36:20.529</Modified>
+      <Modified>2024-01-24T13:27:08.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AlvarezExamenProgreso3.exe</PackagePath>
-      <Modified>2024-01-24T12:36:20.534</Modified>
+      <Modified>2024-01-24T13:27:08.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\Desktop\ProgramacionIV\AlvarezExamenProgreso3\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AlvarezExamenProgreso3.deps.json">
       <PackagePath>AlvarezExamenProgreso3.deps.json</PackagePath>
-      <Modified>2024-01-24T12:30:31.208</Modified>
+      <Modified>2024-01-24T13:27:10.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.14\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -917,6 +917,26 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2023-03-08T07:09:54.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-09-03T17:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2020-09-03T17:13:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2023-05-31T20:12:36.000</Modified>
@@ -924,6 +944,10 @@
     <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\guill\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

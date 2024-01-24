@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlvarezExamenProgreso3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+78f88db1e24d74398543b4e6d22e1ae9e8b72c1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+84a36360d0d7731d4b36cbd1a5834c3fc45bc413")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlvarezExamenProgreso3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlvarezExamenProgreso3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 using Newtonsoft.Json;
 using AlvarezExamenProgreso3.AlvarezModels;
+using static AlvarezExamenProgreso3.AlvarezModels.AlvarezGato;
 
 namespace AlvarezExamenProgreso3.AlvarezViews;
 
@@ -37,6 +38,16 @@ public partial class AlvarezVistaPrincipal : ContentPage
             }
         }
 
+
+    }
+
+    private void OtroGatoButton_Clicked(object sender, EventArgs e)
+    {
+        MostrarGatosEnPantalla();
+    }
+
+    private void GuardarButton_Clicked(object sender, EventArgs e)
+    {
 
     }
 }
