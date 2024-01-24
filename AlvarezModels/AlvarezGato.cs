@@ -13,6 +13,7 @@ namespace AlvarezExamenProgreso3.AlvarezModels
 
         public class Breed
         {
+            [PrimaryKey]
             public int id { get; set; }
             public string name { get; set; }
             public string weight { get; set; }

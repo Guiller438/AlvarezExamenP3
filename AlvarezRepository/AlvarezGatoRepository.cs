@@ -15,10 +15,10 @@ namespace AlvarezExamenProgreso3.AlvarezRepository
         {
             AlvarezConnection = new SQLiteConnection(AlvarezConstants.DatabasePath, AlvarezConstants.Flags);
 
-            AlvarezConnection.CreateTable<AlvarezGatosViewsModels>();
+            AlvarezConnection.CreateTable<AlvarezGato.Root>();
         }
 
-        public void AlvarezAdd(AlvarezGato newGato)
+        public void AlvarezAdd(AlvarezGato.Root newGato)
         {
             try
             {
@@ -31,12 +31,36 @@ namespace AlvarezExamenProgreso3.AlvarezRepository
                 StatusMessageAlvarez = $"Lastima no se agrego un nuevo gato";
             }
         }
-        
+
+        public void AlvarezUpdate(AlvarezGato.Root newGato)
+        {
+            try
+            {
+                if (newGato.id == "0")
+                {
+                    AlvarezConnection.Update(newGato);
+                    StatusMessageAlvarez = $"Se actualizo el gato";
+                }
+               
+            }
+            catch
+            {
+
+                StatusMessageAlvarez = $"Lastima no se actualizo el gato";
+            }
+        }
+
+        public void AlvarezDelete(string id)
+        {
+            var gato = Get(id);
+            AlvarezConnection.Delete(gato);
+        }
+
         public List<AlvarezGato> GetAll()
         {
             return AlvarezConnection.Table<AlvarezGato>().ToList();
         }
-        public AlvarezGato Get(int id)
+        public AlvarezGato Get(string id)
         {
             return AlvarezConnection.Table<AlvarezGato>().FirstOrDefault();
         }
